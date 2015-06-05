@@ -2,13 +2,19 @@
   <head>
     <meta charset="utf-8">
     <title>Browse Select</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   </head>
   <body>
-    <div>
-      <input type="text" id="browseSelect" />
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-offset-3">
+          <input type="text" name="categories" id="browseSelect" class="form-control" />
+        </div>
+      </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="src/browse_select.js"></script>
     <script>
       var input, browse;
